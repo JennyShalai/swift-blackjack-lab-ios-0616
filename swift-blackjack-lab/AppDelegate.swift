@@ -27,6 +27,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          
          */
         
+        let myDeck = Deck.init()
+        myDeck.shuffle()
+        print(myDeck.description)
+        
         // Do not alter
         return true  //
     }   ///////////////
